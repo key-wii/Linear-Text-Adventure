@@ -72,6 +72,8 @@
     {"id":{"name":"scrProceed","path":"scripts/scrProceed/scrProceed.yy",},},
     {"id":{"name":"tText1","path":"timelines/tText1/tText1.yy",},},
     {"id":{"name":"scrWait","path":"scripts/scrWait/scrWait.yy",},},
+    {"id":{"name":"mDefault","path":"sounds/mDefault/mDefault.yy",},},
+    {"id":{"name":"oControllerMusic","path":"objects/oControllerMusic/oControllerMusic.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [

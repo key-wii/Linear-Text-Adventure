@@ -1,5 +1,5 @@
 /// @description 
-DEBUG_SPEED = true;
+DEBUG_SPEED = false;
 
 authorCurrent = "";
 messageCurrent = "";

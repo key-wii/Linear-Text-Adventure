@@ -18,5 +18,6 @@
   ],
   "ResourceOrderSettings": [
     {"name":"scrWait","order":1,"path":"scripts/scrWait/scrWait.yy",},
+    {"name":"oControllerMusic","order":1,"path":"objects/oControllerMusic/oControllerMusic.yy",},
   ],
 }
