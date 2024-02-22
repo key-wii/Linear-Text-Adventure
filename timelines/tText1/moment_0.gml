@@ -1,0 +1,1 @@
+text = "GREAT GOOGLY MOOGLY";
