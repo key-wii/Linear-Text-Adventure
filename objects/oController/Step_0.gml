@@ -39,7 +39,10 @@ if (!wait && authorCurrent == "Anna") {
 	}
 
 	var _move_text = 42;
-	if (mouse_wheel_up()) scrollY += _move_text;
+	var _text_height = string_height_ext(backlog, y_spacing, display_get_gui_width() - xx * 2);
+	var _text_height_max = _text_height - gh + y_adjust;
+	if (_text_height_max < 0) _text_height_max = 0;
+	if (mouse_wheel_up()) scrollY = clamp(scrollY + _move_text, 0, _text_height_max);
 	if (mouse_wheel_down()) scrollY = clamp(scrollY - _move_text, 0, 99999999999);
 
 }
